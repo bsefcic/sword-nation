@@ -48,7 +48,7 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-primary:hover {
-            @apply bg-primary-600;
+            @apply bg-primary-500;
           }
 
           .btn-secondary {

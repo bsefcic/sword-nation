@@ -2,39 +2,21 @@ import { ReactNode } from 'react';
 
 type IHeroActionProps = {
   title: ReactNode;
-  description: string;
-  action: ReactNode;
-  image?: {
-    src: string;
-    alt: string;
-  };
-  list: ReactNode;
+  description1: string;
+  description2: string;
+  description3: string;
 };
 
 const HeroAction = (props: IHeroActionProps) => (
-  <header className="hero-action flex flex-wrap items-center text-center lg:text-left">
-    <div className="w-full md:w-4/5 md:mx-auto lg:w-1/2 lg:pr-4">
+  <header className="hero-action flex flex-wrap items-center lg:text-left">
+    <div className="w-full md:w-4/5 md:mx-auto mb-6 lg:w-1/2 text-center lg:pr-4">
       <h1 className="text-5xl text-gray-900 font-bold whitespace-pre-line leading-hero">
         {props.title}
       </h1>
-      <div className="text-2xl mt-4 mb-6">{props.description}</div>
-
-      {props.action}
-
-      <ul className="mt-4 flex flex-col sm:flex-row justify-center">
-        {props.list}
-      </ul>
     </div>
-
-    {props.image && (
-      <div className="w-full lg:w-1/2">
-        <img
-          className="mt-12 lg:mt-0 mx-auto rounded-md"
-          src={props.image.src}
-          alt={props.image.alt}
-        />
-      </div>
-    )}
+    <div className="text-2xl mt-8 mb-6 indent-10">{props.description1}</div>
+    <div className="text-2xl mt-4 mb-6 indent-10">{props.description2}</div>
+    <div className="text-2xl mt-4 mb-6 indent-10">{props.description3}</div>
 
     <style jsx>
       {`

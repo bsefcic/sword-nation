@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Tailwind CSS Landing Page Next JS React',
+  site_name: 'Sword Nation',
+  title: 'Sword Nation',
   description:
-    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore ducimus animi perferendis, placeat fugit.',
+    'Sword Nation contribuie la incluziunea sociala a copiilor provenienti din medii socio-economice dezavantajate, prin promovarea valorilor Olimpismului si acordarea de burse totale pentru ca acestia sa practice sportul de performanta.',
   locale: 'en',
 };
