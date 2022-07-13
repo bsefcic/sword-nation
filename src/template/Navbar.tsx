@@ -6,27 +6,27 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Navbar = () => (
-  <Background color="bg-gray-100">
-    <Section yPadding="py-6">
+  <Background color="bg-white fixed w-full">
+    <Section id="nav" yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/">
+          <Link href="#misiune">
             <a>Misiune</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Echipa</a>
+          <Link href="#team">
+            <a>Echipă</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="#projects">
             <a>Proiecte</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Sustinere</a>
+          <Link href="#support">
+            <a>Susținere</a>
           </Link>
         </li>
       </NavbarTwoColumns>

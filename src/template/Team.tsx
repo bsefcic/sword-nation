@@ -3,9 +3,9 @@ import { Section } from '../layout/Section';
 import { TestimonialCard } from '../testimonial/TestimonialCard';
 import { TestimonialHeader } from '../testimonial/TestimonialHeader';
 
-const Testimonial = () => (
-  <Background color="bg-gray-100">
-    <Section yPadding="py-36">
+const Team = () => (
+  <Background color="bg-primary-500">
+    <Section id="team" yPadding="py-36">
       <div className="grid grid-cols-1 gap-5 items-center">
         <TestimonialHeader subtitle="Awesome customers" title="Echipa noastră">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -69,7 +69,7 @@ const Testimonial = () => (
           </TestimonialCard>
           <TestimonialCard
             image={{
-              src: '/assets/images/avatar3.png',
+              src: '/assets/images/avatar.png',
               alt: 'Random name avatar alt text',
             }}
             author={{
@@ -144,4 +144,4 @@ const Testimonial = () => (
   </Background>
 );
 
-export { Testimonial };
+export { Team };

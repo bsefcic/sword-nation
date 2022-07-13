@@ -3,8 +3,8 @@ import { HeroAction } from '../hero/HeroAction';
 import { Section } from '../layout/Section';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
-    <Section yPadding="py-24">
+  <Background color="bg-gray-100 pt-12">
+    <Section id="misiune" yPadding="py-24">
       <HeroAction
         title={
           <>
