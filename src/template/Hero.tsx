@@ -1,32 +1,20 @@
 import { Background } from '../background/Background';
-import { Form } from '../form/Form';
 import { HeroAction } from '../hero/HeroAction';
-import { HeroElement } from '../hero/HeroElement';
 import { Section } from '../layout/Section';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
-    <Section yPadding="py-24">
+  <Background color="bg-white pt-12">
+    <Section id="misiune" yPadding="py-24">
       <HeroAction
         title={
           <>
-            The modern landing page for{' '}
-            <span className="text-primary-500">React developer</span>
+            Bine ai venit pe pagina oficiala{' '}
+            <span className="text-primary-500">Sword Nation!</span>
           </>
         }
-        description="The easiest way to build React landing page in seconds. Save you time and focus on your product."
-        action={<Form submitText="Start Free Trial" />}
-        image={{
-          src: '/assets/images/hero-image.png',
-          alt: 'Hero screenshot',
-        }}
-        list={
-          <>
-            <HeroElement>No credit card required</HeroElement>
-            <HeroElement>14-day free trial</HeroElement>
-            <HeroElement>Cancel anytime</HeroElement>
-          </>
-        }
+        description1="Asociația Sword Nation a fost înființată în 2018, iar de atunci dezvoltă și implementează proiecte de incluziune socială prin sport, menite să apropie acei copii care au cea mai mare nevoie de valorile și lecțiile pe care sportul se bazează."
+        description2="Credința noastră profundă este că sportul are puterea de a educa și de a modela. Prin asigurarea accesului cât mai răspândit la valori precum meritocrația, fair-play-ul, echilibrul sau respectul față de sine și de adversar, societatea în care trăim devine un spațiu mai cald, mai eficient și mai inclusiv."
+        description3="Misiunea noastră este de a oferi fiecărui copil care provine dintr-un mediu defavorizat oportunitatea practicării unei activități care să îi permită să se descopere pe sine și să își atingă adevăratul potențial."
       />
     </Section>
   </Background>

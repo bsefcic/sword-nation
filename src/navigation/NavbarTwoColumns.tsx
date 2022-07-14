@@ -6,7 +6,6 @@ import Link from 'next/link';
 type INavbarProps = {
   logo: ReactNode;
   children: ReactNode;
-  rightMenu: ReactNode;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => {
@@ -57,10 +56,6 @@ const NavbarTwoColumns = (props: INavbarProps) => {
         <ul className="navbar rounded-t">{props.children}</ul>
       </nav>
 
-      <div className={`border-t border-gray-200 ${navClass}`}>
-        <ul className="navbar rounded-b">{props.rightMenu}</ul>
-      </div>
-
       <style jsx>
         {`
           .navbar {
@@ -80,7 +75,7 @@ const NavbarTwoColumns = (props: INavbarProps) => {
           }
 
           .navbar :global(a:hover) {
-            @apply text-primary-600;
+            @apply text-primary-500;
           }
 
           @screen md {

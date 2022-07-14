@@ -6,8 +6,8 @@ type IFooterLinksProps = {
 };
 
 const FooterLinks = (props: IFooterLinksProps) => (
-  <div className="footer-links text-center sm:text-left">
-    <div className="font-semibold text-gray-800">{props.title}</div>
+  <div className="footer-links text-center sm:text-center">
+    <div className="font-semibold text-3xl text-gray-800">{props.title}</div>
 
     <nav className="mt-6">
       <ul>{props.children}</ul>
@@ -20,7 +20,7 @@ const FooterLinks = (props: IFooterLinksProps) => (
         }
 
         .footer-links :global(li a:hover) {
-          @apply text-primary-600;
+          @apply text-primary-500;
         }
       `}
     </style>

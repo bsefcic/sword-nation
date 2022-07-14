@@ -3,6 +3,7 @@ import { ReactNode } from 'react';
 import className from 'classnames';
 
 type ISectionProps = {
+  id: string;
   title?: string;
   subtitle?: string;
   description?: string;
@@ -19,15 +20,10 @@ const Section = (props: ISectionProps) => {
     'text-gray-100': props.dark,
   });
 
-  const descriptionClass = className({
-    'mt-4': true,
-    'text-xl': true,
-    'text-gray-200': props.dark,
-  });
-
   return (
     <div
-      className={`max-w-screen-xl mx-auto px-3 sm:px-5 lg:px-6 ${
+      id={props.id}
+      className={`max-w-screen-xl mx-auto px-3 sm:px-5 lg:px-6 scroll-mt-24 ${
         props.yPadding ? props.yPadding : 'py-16'
       }`}
     >
@@ -40,7 +36,9 @@ const Section = (props: ISectionProps) => {
           )}
           {props.title && <h2 className={titleClass}>{props.title}</h2>}
           {props.description && (
-            <div className={descriptionClass}>{props.description}</div>
+            <div className="mt-4 text-xl text-gray-900">
+              {props.description}
+            </div>
           )}
         </div>
       )}
