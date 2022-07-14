@@ -23,7 +23,9 @@ const TestimonialCard = (props: ITestimonialCardProps) => (
         </svg>
 
         <div className="sm:mt-3 ml-3">
-          <div className="indent-8 leading-7">{props.children}</div>
+          <div className="indent-8 leading-7 text-gray-800">
+            {props.children}
+          </div>
           <div className="mt-2">
             <span className="text-gray-900 font-bold">{props.author.name}</span>{' '}
             -{' '}

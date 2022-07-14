@@ -7,7 +7,7 @@ const Projects = () => (
   <Section
     id="projects"
     title="Proiectele noastre"
-    subtitle="FAQ"
+    subtitle="Lorem Ipsum"
     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
   >
     <div className="flex flex-col">
@@ -31,42 +31,42 @@ const Projects = () => (
       </Project>
       <Project projectTitle="proiectul sports nation - pilot">
         <p>
-          sports nation – pilot a fost proiectat cu obiectivul de a uni prin
-          sport trei discipline si federatii sportive romanesti, federatia
-          romana de rugby, federatia romana de scrima si federatia romana de
-          baschet in cadrul unui ansamblu axat pe dezvoltarea awareness-ului
-          asupra bunelor practici in lucrul cu copiii din medii defavorizate.
-          durata de implementare a proiectului este de 12 luni, persoanele
-          implicate fiind 10 antrenori din cele 3 discipline sportive si 50 de
-          copii, legitimati la cluburile sportive.
+          Sports nation – pilot a fost proiectat cu obiectivul de a uni prin
+          sport trei discipline și federații sportive românești, Federația
+          Română de Rugby, Federația Română de Scrimă și Federația Româna de
+          Baschet în cadrul unui ansamblu axat pe dezvoltarea awareness-ului
+          asupra bunelor practici în lucrul cu copiii din medii defavorizate.
+          Durata de implementare a proiectului este de 12 luni, persoanele
+          implicate fiind 10 antrenori din cele 3 discipline sportive și 50 de
+          copii, legitimați la cluburile sportive.
         </p>
         <p>
-          cei 50 de copii au fost selectati din institutiile de invatamant
+          Cei 50 de copii au fost selectati din institutiile de invatamant
           locale si participa la antrenamente in cadrul cluburilor sportive. pe
           parcursul implementarii proiectului, copiii au primit echipamentul
           necesar practicarii sportului.
         </p>
         <p>
-          cei 10 antrenori selectati cu ajutorul federatiilor de specialitate au
-          participat la 2 workshop-uri dedicate pe teme precum psihologia
-          sportului, importanta sociala a sportului, construirea sustenabila a
-          initiativelor sociale etc.
+          Cei 10 antrenori selectați cu ajutorul federațiilor de specialitate au
+          participat la 2 workshopuri dedicate pe teme precum psihologia
+          sportului, importanța socială a sportului, construirea sustenabila a
+          inițiativelor sociale etc.
         </p>
         <p>
-          cu ajutorul alinei anghel am demarat primul workshop; temele
+          Cu ajutorul Alinei Anghel am demarat primul workshop; temele
           principale au fost psihologia sportivă, metode de incluziune socială
-          prin sport și modele pedagogice adaptate pentru incluziune socială. am
+          prin sport și modele pedagogice adaptate pentru incluziune socială. Am
           abordat și subiecte precum nevoile comunităților defavorizate și rolul
           esențial al antrenorului/ei în ele.
         </p>
         <p>
-          cel de-al doilea workshop dedicat antrenorilor a fost organizat
-          impreuna cu partenerii proiectului furim insitutt prin max myklagard.
-          workshop-ul s-a desfasurat online, pe zoom tema principala fiind
-          crearea unui ecosistem inclusiv in cadrul cluburilor sportive cu
-          exemple din norvegia.
+          Cel de-al doilea workshop dedicat antrenorilor a fost organizat
+          împreună cu partenerii proiectului Furim Insitutt prin Max Myklagard.
+          Workshopul s-a desfășurat online, pe zoom, tema principală fiind
+          crearea unui ecosistem inclusiv în cadrul cluburilor sportive cu
+          exemple din Norvegia.
         </p>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mt-4">
           <img
             src="/assets/images/sportsnationpic.png"
             alt="sports nation pic"

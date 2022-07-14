@@ -8,16 +8,11 @@ import { SupportUs } from './SupportUs';
 import { Team } from './Team';
 
 const Base = () => (
-  <div className="antialiased text-gray-600">
+  <div className="antialiased text-gray-700">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Navbar />
     <Hero />
-    {/* <VerticalFeatures />
-    <Customer />
-    <Features /> */}
     <Team />
-    {/* <Stats />
-    <Pricing /> */}
     <Projects />
     <SupportUs />
     <Footer />
