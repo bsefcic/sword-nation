@@ -6,7 +6,7 @@ import { Mission } from './Mission';
 import { Navbar } from './Navbar';
 import { Projects } from './Projects';
 import { SupportUs } from './SupportUs';
-import { Team } from './Team';
+import { TeamCards } from './TeamCards';
 
 const Base = () => (
   <div className="antialiased text-gray-700">
@@ -14,7 +14,7 @@ const Base = () => (
     <Navbar />
     <Home />
     <Mission />
-    <Team />
+    <TeamCards />
     <Projects />
     <SupportUs />
     <Footer />
