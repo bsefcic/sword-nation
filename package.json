@@ -19,6 +19,7 @@
     "next-seo": "^4.28.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-use-downloader": "^1.1.7",
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {

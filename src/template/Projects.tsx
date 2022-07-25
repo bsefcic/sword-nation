@@ -11,7 +11,10 @@ const Projects = () => (
     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
   >
     <div className="flex flex-col">
-      <Project projectTitle="proiectul sword nation - chitila">
+      <Project
+        projectPath="/projects/sword-nation-chitila"
+        projectTitle="Proiectul Sword Nation - Chitila"
+      >
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit
           amet faucibus enim. Duis scelerisque, nibh in ultrices consequat,
@@ -29,7 +32,7 @@ const Projects = () => (
           .
         </p>
       </Project>
-      <Project projectTitle="proiectul sports nation - pilot">
+      <Project projectPath="/" projectTitle="Proiectul Sports Nation - Pilot">
         <p>
           Sports nation – pilot a fost proiectat cu obiectivul de a uni prin
           sport trei discipline și federații sportive românești, Federația

@@ -2,7 +2,7 @@ import { Background } from '../background/Background';
 import { HeroAction } from '../hero/HeroAction';
 import { Section } from '../layout/Section';
 
-const Hero = () => (
+const Mission = () => (
   <Background color="bg-white pt-12">
     <Section id="misiune" yPadding="py-24">
       <HeroAction
@@ -20,4 +20,4 @@ const Hero = () => (
   </Background>
 );
 
-export { Hero };
+export { Mission };
