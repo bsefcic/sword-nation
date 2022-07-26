@@ -1,10 +1,8 @@
 import { ReactNode } from 'react';
 
-import Link from 'next/link';
-
 type IProjectsProps = {
   projectTitle: string;
-  projectPath: string;
+  projectPath?: string;
   children: ReactNode;
 };
 
@@ -29,9 +27,7 @@ const Project = (props: IProjectsProps) => (
 
     <div className="ml-4">
       <div className="text-2xl text-primary-500 font-semibold leading-7">
-        <Link href={props.projectPath}>
-          <a>{props.projectTitle}</a>
-        </Link>
+        {props.projectTitle}
       </div>
 
       <div className="text-lg leading-7 indent-8">{props.children}</div>

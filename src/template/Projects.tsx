@@ -32,7 +32,7 @@ const Projects = () => (
           .
         </p>
       </Project>
-      <Project projectPath="/" projectTitle="Proiectul Sports Nation - Pilot">
+      <Project projectTitle="Proiectul Sports Nation - Pilot">
         <p>
           Sports nation – pilot a fost proiectat cu obiectivul de a uni prin
           sport trei discipline și federații sportive românești, Federația

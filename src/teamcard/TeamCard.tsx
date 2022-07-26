@@ -21,7 +21,7 @@ const TeamCard = (props: ITeamCardProps) => {
         transition={{ layout: { duration: 1, type: 'spring' } }}
         layout
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-white px-12 py-16 rounded-3xl shadow-2xl w-full  md:w-2/3"
+        className="bg-white px-12 py-16 rounded-3xl shadow-2xl w-full md:w-2/3 hover:bg-gray-200 hover:cursor-pointer"
       >
         <motion.div
           layout="position"
