@@ -16,12 +16,15 @@ const TeamCard = (props: ITeamCardProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex justify-center align-center bg-primary-500 px-16 pt-8">
+    <div className="flex justify-center align-center px-4 lg:px-16 pt-8">
       <motion.div
-        transition={{ layout: { duration: 1, type: 'spring' } }}
+        transition={{
+          layout: { duration: 1, type: 'spring' },
+          when: 'afterChildren',
+        }}
         layout
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-white px-12 py-16 rounded-3xl shadow-2xl w-full md:w-2/3 hover:bg-gray-200 hover:cursor-pointer"
+        className="bg-white px-12 py-16 rounded-3xl shadow-2xl w-full md:w-2/3 lg:w-full hover:bg-gray-200 hover:cursor-pointer"
       >
         <motion.div
           layout="position"
