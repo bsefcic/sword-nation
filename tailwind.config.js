@@ -14,6 +14,13 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      backgroundImage: {
+        lgImage: "url('/assets/images/home_image_lg.png')",
+        xxlImage: "url('/assets/images/home_image.png')",
+        xlImage: "url('/assets/images/home_image_xl.png')",
+        mdImage: "url('/assets/images/home_image_md.png')",
+        smallestImage: "url('/assets/images/home_image_smallest.png')",
+      },
       colors: {
         primary: {
           100: '#E6FFFA',
