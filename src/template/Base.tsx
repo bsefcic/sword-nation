@@ -1,18 +1,18 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { Footer } from './Footer';
-import { Hero } from './Hero';
+import { Mission } from './Mission';
 import { Navbar } from './Navbar';
 import { Projects } from './Projects';
 import { SupportUs } from './SupportUs';
-import { Team } from './Team';
+import { TeamCards } from './TeamCards';
 
 const Base = () => (
   <div className="antialiased text-gray-700">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Navbar />
-    <Hero />
-    <Team />
+    <Mission />
+    <TeamCards />
     <Projects />
     <SupportUs />
     <Footer />

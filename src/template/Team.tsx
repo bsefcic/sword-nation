@@ -69,7 +69,7 @@ const Team = () => (
           </TestimonialCard>
           <TestimonialCard
             image={{
-              src: '/assets/images/avatar.png',
+              src: '/assets/images/andreimateipoza.png',
               alt: 'Random name avatar alt text',
             }}
             author={{

@@ -6,7 +6,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Navbar = () => (
-  <Background color="bg-white fixed w-full">
+  <Background color="bg-white fixed w-full z-50">
     <Section id="nav" yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>

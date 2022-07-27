@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 
 type IProjectsProps = {
   projectTitle: string;
+  projectPath?: string;
   children: ReactNode;
 };
 
@@ -9,7 +10,7 @@ const Project = (props: IProjectsProps) => (
   <div className="question-answer flex mt-16 first:mt-0">
     <div className="w-10 h-10 flex items-center justify-center rounded-md bg-primary-500 flex-shrink-0">
       <svg
-        className="text-white stroke-current w-6 h-6 stroke-2"
+        className="text-white stroke-current w-6 h-6 stroke-1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 21"
         fill="none"
