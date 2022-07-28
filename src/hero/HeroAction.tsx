@@ -2,9 +2,10 @@ import { ReactNode } from 'react';
 
 type IHeroActionProps = {
   title: ReactNode;
-  description1: string;
+  description1: ReactNode;
   description2: string;
   description3: string;
+  description4: string;
 };
 
 const HeroAction = (props: IHeroActionProps) => (
@@ -15,8 +16,9 @@ const HeroAction = (props: IHeroActionProps) => (
       </h1>
     </div>
     <div className="text-2xl mt-8 mb-6 indent-10">{props.description1}</div>
-    <div className="text-2xl mt-4 mb-6 indent-10">{props.description2}</div>
-    <div className="text-2xl mt-4 mb-6 indent-10">{props.description3}</div>
+    <div className="text-2xl mb-6 indent-10">{props.description2}</div>
+    <div className="text-2xl mb-6 indent-10">{props.description3}</div>
+    <div className="text-2xl mb-6 indent-10">{props.description4}</div>
 
     <style jsx>
       {`

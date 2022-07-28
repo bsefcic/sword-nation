@@ -7,7 +7,6 @@ const Projects = () => (
   <Section
     id="projects"
     title="Proiectele noastre"
-    subtitle="Lorem Ipsum"
     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
   >
     <div className="flex flex-col">

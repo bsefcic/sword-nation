@@ -6,15 +6,18 @@ const Mission = () => (
   <Background color="bg-white">
     <Section id="misiune" yPadding="py-24">
       <HeroAction
-        title={
+        title={<>Misiunea Noastră</>}
+        description1={
           <>
-            Bine ai venit pe pagina oficiala{' '}
-            <span className="text-primary-500">Sword Nation!</span>
+            <span className="text-primary-500 font-bold">Sword Nation</span>{' '}
+            este o organizație non-guvernamentală înființată în 2018 care
+            contribuie la incluziunea socială a copiilor din medii defavorizate
+            prin facilitarea accesului la sport în regim organizat.
           </>
         }
-        description1="Asociația Sword Nation a fost înființată în 2018, iar de atunci dezvoltă și implementează proiecte de incluziune socială prin sport, menite să apropie acei copii care au cea mai mare nevoie de valorile și lecțiile pe care sportul se bazează."
-        description2="Credința noastră profundă este că sportul are puterea de a educa și de a modela. Prin asigurarea accesului cât mai răspândit la valori precum meritocrația, fair-play-ul, echilibrul sau respectul față de sine și de adversar, societatea în care trăim devine un spațiu mai cald, mai eficient și mai inclusiv."
-        description3="Misiunea noastră este de a oferi fiecărui copil care provine dintr-un mediu defavorizat oportunitatea practicării unei activități care să îi permită să se descopere pe sine și să își atingă adevăratul potențial."
+        description2="Copiii care practică sport prin intermediul proiectelor noastre iau parte la un proces de educație alternativă menit să îi transforme în viitori adulți mai implicați, mai încrezători și mai echilibrați."
+        description3="Simțim zi de zi puterea sportului de a educa și de a modela copiii. Așa că misiunea noastră este de a oferi fiecărui copil care provine dintr-un mediu defavorizat oportunitatea practicării unei activități prin care să își atingă adevăratul potențial și să își exprime propria pasiune. Copiii aflați în situații dificile au cea mai mare nevoie de experiența autodepășirii și de încredere în sine. Societatea pe care muncim este una mai echilibrată, mai sănătoasă și mai productivă!"
+        description4="Prin prietenie și respect reciproc putem excela împreună!"
       />
     </Section>
   </Background>

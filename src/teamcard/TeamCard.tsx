@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState, ReactNode } from 'react';
 
 import { motion } from 'framer-motion';
 
 type ITeamCardProps = {
   name: string;
   position: string;
-  description: string;
+  description: ReactNode;
   image: {
     src: string;
     alt: string;
