@@ -1,6 +1,25 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      sm: '640px',
+      // => @media (min-width: 640px) { ... }
+
+      md: '768px',
+      // => @media (min-width: 768px) { ... }
+
+      lg: '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      xl: '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+
+      sml: { max: '639px' },
+      // => @media (max-width: 639px) { ... }
+    },
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
@@ -15,11 +34,11 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        lgImage: "url('/assets/images/home_image_lg.png')",
-        xxlImage: "url('/assets/images/home_image.png')",
-        xlImage: "url('/assets/images/home_image_xl.png')",
-        mdImage: "url('/assets/images/home_image_md.png')",
-        smallestImage: "url('/assets/images/home_image_smallest.png')",
+        lgImage: "url('/assets/images/desktop_no_text_crop1.png')",
+        xxlImage: "url('/assets/images/desktop_no_text.png')",
+        xlImage: "url('/assets/images/desktop_no_text_crop1.png')",
+        mdImage: "url('/assets/images/desktop_no_text_crop1.png')",
+        smallestImage: "url('/assets/images/mobile_no_text.png')",
       },
       colors: {
         primary: {
