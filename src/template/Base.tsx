@@ -11,7 +11,7 @@ import { TeamCards } from './TeamCards';
 const Base = () => (
   <div className="antialiased text-gray-700">
     <Meta title={AppConfig.title} description={AppConfig.description} />
-    <Navbar />
+    <Navbar prefix="" />
     <Home />
     <Mission />
     <TeamCards />

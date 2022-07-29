@@ -8,7 +8,7 @@ const TeamCards = () => {
     <div className="pb-8 bg-primary-500">
       <Section
         id="team"
-        title="Echipa noastră"
+        title="Cunoaște echipa"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
         tristique nibh ac diam pretium tincidunt. Vestibulum sed est velit."
         yPadding="pt-20"

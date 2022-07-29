@@ -24,9 +24,9 @@ const SupportUs = () => {
           <p>Asociația Sword Nation</p>
           <p>Registrul Asociațiilor și Fundațiilor nr. 88/27.09.2019</p>
           <p>CIF: 41712251</p>
-          <div className="mt-16 pb-16 border-b border-black border-opacity-30">
-            <div className="bg-primary-600 bg-opacity-30 rounded-3xl text-gray-900 px-4 py-12 border-2">
-              <p className="text-xl mb-6 font-bold italic">
+          <div className="mt-14 pb-6">
+            <div className="bg-white shadow-2xl rounded-3xl text-gray-900 px-4 py-12">
+              <p className="text-xl mb-6 font-bold">
                 Companii - 20% din impozit pe profit
               </p>
               <p className="mb-8 indent-8">
@@ -45,16 +45,16 @@ const SupportUs = () => {
                 proiectele noastre. Mulțumim că te implici!
               </p>
               <button
-                className="bg-white text-gray-900  italic mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-gray-300"
+                className="bg-primary-500 w-32 font-bold text-white mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600"
                 onClick={() => download(fileUrl, filename)}
               >
-                Descarcă Document
+                Descarcă
               </button>
             </div>
           </div>
-          <div className="mt-16">
-            <div className="bg-primary-600 bg-opacity-30 rounded-3xl text-gray-900 px-4 py-12 border-2">
-              <p className="text-xl mb-6 font-bold italic">
+          <div className="mt-12">
+            <div className="bg-white shadow-2xl rounded-3xl text-gray-900 px-4 py-12">
+              <p className="text-xl mb-6 font-bold">
                 Persoane fizice - 3.5% din impozit pe venit
               </p>
               <p className="mb-8 indent-8">
@@ -74,8 +74,8 @@ const SupportUs = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-white text-gray-900 italic mt-3 py-3 px-3 hover:scale-90 rounded-xl hover:bg-gray-300">
-                  formular230.ro/sword-nation
+                <button className="bg-primary-500 w-32 text-white font-bold mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600">
+                  Completează
                 </button>
               </a>
               <p className="text-black text-opacity-80 italic text-xs mt-6">

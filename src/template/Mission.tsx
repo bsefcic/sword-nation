@@ -9,7 +9,7 @@ const Mission = () => (
         title={<>Misiunea Noastră</>}
         description1={
           <>
-            <span className="text-primary-500 font-bold">Sword Nation</span>{' '}
+            <span className="text-primary-500 font-bold ">Sword Nation</span>{' '}
             este o organizație non-guvernamentală înființată în 2018 care
             contribuie la incluziunea socială a copiilor din medii defavorizate
             prin facilitarea accesului la sport în regim organizat.

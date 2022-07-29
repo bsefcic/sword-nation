@@ -6,7 +6,11 @@ import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
-const Navbar = () => {
+type INavbarProps = {
+  prefix: string;
+};
+
+const Navbar = (props: INavbarProps) => {
   const [offset, setOffset] = useState(0);
 
   useEffect(() => {
@@ -26,22 +30,22 @@ const Navbar = () => {
       <Section id="nav" yPadding="py-6">
         <NavbarTwoColumns logo={<Logo xl />}>
           <li>
-            <Link href="#misiune">
+            <Link href={`${props.prefix}#misiune`}>
               <a>Misiune</a>
             </Link>
           </li>
           <li>
-            <Link href="#team">
+            <Link href={`${props.prefix}#team`}>
               <a>Echipă</a>
             </Link>
           </li>
           <li>
-            <Link href="#projects">
+            <Link href={`${props.prefix}#projects`}>
               <a>Proiecte</a>
             </Link>
           </li>
           <li>
-            <Link href="#support">
+            <Link href={`${props.prefix}#support`}>
               <a>Susținere</a>
             </Link>
           </li>

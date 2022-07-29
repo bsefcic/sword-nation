@@ -10,14 +10,15 @@ type ISectionProps = {
   yPadding?: string;
   dark?: boolean;
   children: ReactNode;
+  titleColor?: boolean;
 };
 
 const Section = (props: ISectionProps) => {
   const titleClass = className({
+    'text-gray-900': !props.titleColor,
+    'text-primary-500': props.titleColor,
     'font-bold': true,
     'text-4xl': true,
-    'text-gray-900': !props.dark,
-    'text-gray-100': props.dark,
   });
 
   return (
@@ -36,7 +37,7 @@ const Section = (props: ISectionProps) => {
           )}
           {props.title && <h2 className={titleClass}>{props.title}</h2>}
           {props.description && (
-            <div className="mt-4 text-xl text-gray-900">
+            <div className="mt-4 lg:text-xl text-gray-900">
               {props.description}
             </div>
           )}
