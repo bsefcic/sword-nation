@@ -7,7 +7,7 @@ import { Section } from '../layout/Section';
 import { AppConfig } from '../utils/AppConfig';
 
 const Footer = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-white">
     <Section id="footer">
       <FooterTwoRowsCopyright
         siteName={AppConfig.site_name}

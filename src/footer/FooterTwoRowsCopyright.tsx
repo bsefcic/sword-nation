@@ -32,7 +32,7 @@ const FooterTwoRowsCopyright = (props: IFooterTwoRowsCopyrightProps) => (
       </div>
 
       <div className="text-sm text-center lg:text-right">
-        {`© Copyright ${new Date().getFullYear()} ${
+        {`© Copyright ${new Date().getFullYear()} Asociația ${
           props.siteName
         }. All Rights Reserved.`}
       </div>
