@@ -34,10 +34,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        lgImage: "url('/assets/images/desktop_no_text_crop1.png')",
-        xxlImage: "url('/assets/images/desktop_no_text.png')",
-        xlImage: "url('/assets/images/desktop_no_text_crop1.png')",
-        mdImage: "url('/assets/images/desktop_no_text_crop1.png')",
+        bgImage: "url('/assets/images/backgroundnothing.png')",
         smallestImage: "url('/assets/images/mobile_no_text.png')",
       },
       colors: {
