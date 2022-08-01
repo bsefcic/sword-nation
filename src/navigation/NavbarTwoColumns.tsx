@@ -59,7 +59,7 @@ const NavbarTwoColumns = (props: INavbarProps) => {
       <style jsx>
         {`
           .navbar {
-            @apply flex flex-col font-medium text-xl text-gray-700 p-5 bg-white;
+            @apply flex flex-col font-medium text-xl text-gray-900 p-5 bg-white;
           }
 
           .navbar :global(a) {
