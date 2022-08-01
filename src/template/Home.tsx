@@ -6,8 +6,13 @@ const Home = () => {
     >
       <div className="sm:grid sm:grid-cols-[minmax(0,_1200px)_minmax(0,_1200px)] sm:h-screen sm:justify-items-center">
         <div className="sml:m-auto sml:text-center lg:pl-24 lg:indent-8">
+          <img
+            src="/assets/images/snheroicon.png"
+            alt=""
+            className="w-1/3 mx-auto pt-32 pb-16 sm:hidden"
+          ></img>
           <p
-            className="font-bold sml:text-3xl sml:pt-[416px] sml:px-6 sm:text-3xl sm:mt-36 sm:text-center sm:pt-32 lg:text-4xl xl:mt-24
+            className="font-bold sml:text-3xl sml:px-6 sm:text-3xl sm:mt-36 sm:text-center sm:pt-32 lg:text-4xl xl:mt-24
             xl:text-5xl  text-gray-900"
           >
             Asociația Sword Nation contribuie la dezvoltarea viitoarei generații
@@ -20,6 +25,11 @@ const Home = () => {
             <p className=" lg:text-lg xl:text-xl">Pierre de Coubertin</p>
           </div>
         </div>
+        <img
+          src="/assets/images/snherokids.png"
+          alt=""
+          className="pt-16 mx-auto sm:hidden"
+        ></img>
         <div className="justify-self-center sml:hidden sm:relative">
           <img
             src="/assets/images/snheroicon.png"

@@ -35,7 +35,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         bgImage: "url('/assets/images/backgroundnothing.png')",
-        smallestImage: "url('/assets/images/mobile_no_text.png')",
+        smallestImage: "url('/assets/images/smallbg.png')",
       },
       colors: {
         primary: {
