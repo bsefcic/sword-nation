@@ -1,4 +1,5 @@
 import { Background } from '../background/Background';
+import CarouselSports from '../carousels/CarouselSports';
 import { Section } from '../layout/Section';
 
 const ProjectSports = () => (
@@ -82,20 +83,9 @@ const ProjectSports = () => (
           <div className="mb-6 text-primary-500 text-lg font-bold text-center">
             #haide #ActiveCitizensFund #Romania #activecitizens #EEANorwayGrants
           </div>
-          <div className="md:grid md:grid-cols-2 gap-2">
-            <img
-              src="/assets/images/sports2.png"
-              alt="image sports2"
-              className="m-auto"
-            ></img>
-            <img
-              src="/assets/images/sports3.png"
-              alt="image sports3"
-              className="m-auto"
-            ></img>
-          </div>
         </div>
       </Section>
+      <CarouselSports />
     </Background>
   </>
 );

@@ -148,7 +148,7 @@ const TeamCards = () => {
                   se ocupă de social media pentru paginile{' '}
                   <span className="text-primary-500 font-bold">
                     Sword Nation
-                  </span>{' '}
+                  </span>
                   , ajută la formarea identității vizuale a organizației, prin
                   materiale online și offline. Ea are 23 de ani, licențiată în
                   publicitate, urmând în prezent un master de social media și

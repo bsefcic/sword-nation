@@ -19,6 +19,7 @@ module.exports = {
 
       sml: { max: '639px' },
       // => @media (max-width: 639px) { ... }
+      custombp: { raw: '(max-height: 771px)' },
     },
     fontSize: {
       xs: '0.75rem',
