@@ -6,6 +6,7 @@ import Link from 'next/link';
 type INavbarProps = {
   logo: ReactNode;
   children: ReactNode;
+  prefix: string;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => {
@@ -22,7 +23,7 @@ const NavbarTwoColumns = (props: INavbarProps) => {
   return (
     <div className="flex flex-wrap justify-between items-center">
       <div className="flex items-center">
-        <Link href="/">
+        <Link href={`${props.prefix}#home`}>
           <a>{props.logo}</a>
         </Link>
 

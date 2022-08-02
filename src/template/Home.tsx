@@ -1,6 +1,7 @@
 const Home = () => {
   return (
     <section
+      id="home"
       className="bg-cover bg-center h-screen w-full
     bg-smallestImage sm:bg-bgImage sm:bg-bottom overflow-hidden"
     >
@@ -9,11 +10,11 @@ const Home = () => {
           <img
             src="/assets/images/snheroicon.png"
             alt=""
-            className="w-1/3 mx-auto pt-32 pb-16 sm:hidden"
+            className="w-1/3 mx-auto pt-32 pb-16 sm:hidden custombp:hidden"
           ></img>
           <p
             className="font-bold sml:text-3xl sml:px-6 sm:text-3xl sm:mt-36 sm:text-center sm:pt-32 lg:text-4xl xl:mt-24
-            xl:text-5xl  text-gray-900"
+            xl:text-5xl  text-gray-900 custombp:pt-40"
           >
             Asociația Sword Nation contribuie la dezvoltarea viitoarei generații
             cu inițiative de incluziune socială prin sport

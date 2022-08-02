@@ -15,12 +15,7 @@ const Footer = () => (
           <>
             <li>
               <Link href="/">
-                <a>Terms Of Service</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Privacy Policy</a>
+                <a>Termenii şi Condiţii</a>
               </Link>
             </li>
           </>

@@ -28,7 +28,7 @@ const Navbar = (props: INavbarProps) => {
       }`}
     >
       <Section id="nav" yPadding="py-6">
-        <NavbarTwoColumns logo={<Logo xl />}>
+        <NavbarTwoColumns prefix={props.prefix} logo={<Logo xl />}>
           <li>
             <Link href={`${props.prefix}#misiune`}>
               <a>Misiune</a>

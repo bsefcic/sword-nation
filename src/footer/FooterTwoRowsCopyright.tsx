@@ -34,7 +34,7 @@ const FooterTwoRowsCopyright = (props: IFooterTwoRowsCopyrightProps) => (
       <div className="text-sm text-center lg:text-right">
         {`© Copyright ${new Date().getFullYear()} Asociația ${
           props.siteName
-        }. All Rights Reserved.`}
+        }. Toate drepturile rezervate.`}
       </div>
     </div>
   </>
