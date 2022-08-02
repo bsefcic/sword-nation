@@ -9,8 +9,7 @@ const TeamCards = () => {
       <Section
         id="team"
         title="Cunoaște echipa"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-        tristique nibh ac diam pretium tincidunt. Vestibulum sed est velit."
+        description="Echipa este formată din oameni pasionați de sport și toate aspectele acestuia. Împreună lucrăm pentru a oferi fiecărui copil șansa practicării unei activități prin care să se dezvolte armonios."
         yPadding="pt-20"
       >
         <div className="lg:grid lg:grid-cols-2 lg:items-start lg:grid-flow-row">

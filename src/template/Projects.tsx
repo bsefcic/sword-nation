@@ -5,7 +5,7 @@ const Projects = () => (
   <Section
     id="projects"
     title="Ce facem?"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    description="Proiectele dezvoltate de Asociația Sword Nation au scopul de a oferi copiilor din medii defavorizate oportunitatea de a practică sportul în cluburile afiliate."
   >
     <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6">
       <Project

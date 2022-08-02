@@ -14,7 +14,7 @@ const Footer = () => (
         verticalLinks={
           <>
             <li>
-              <Link href="/">
+              <Link href="/terms">
                 <a>Termenii şi Condiţii</a>
               </Link>
             </li>

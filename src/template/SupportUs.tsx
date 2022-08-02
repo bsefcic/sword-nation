@@ -16,7 +16,7 @@ const SupportUs = () => {
         description="Investește în educația non-formală a copiilor defavorizați, investește într-o generație viitoare mai echilibrată și mai performantă! Proiectele noastre se adresează acelor copii cu potențial și talent, care însă nu au ocazia de a și le exprima. Donația ta ne ajută să le oferim aripi și încredere în sine! Donează printr-un transfer către contul nostru:
         "
       >
-        <div className="text-center text-gray-900">
+        <div className="text-center text-gray-900 lg:text-xl">
           <p>
             Cont in RON - IBAN: {` `}
             <span className="font-bold">RO84RNCB0082166606290001</span>
