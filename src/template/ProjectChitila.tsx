@@ -12,11 +12,11 @@ const ProjectChitila = () => (
       >
         <div className="mt-12 text-lg lg:text-xl indent-10 text-gray-900">
           <div>
-            Din 2020, un grup de 30 de copii cu vârste între 7 și 12 an, din
-            comunitatea din Chitila, sunt implicați într-un proces de educație
-            non-formală prin practicarea scrimei. Ei își descoperă propriile
-            atuuri în acest sport nobil și se antrenează pentru a se autodepășii
-            în fiecare zi.
+            Din 2020, un grup de 30 de copii cu vârste între 7 și 12 ani, din
+            comunitatea orașului Chitila, jud. Ilfov, sunt implicați într-un
+            proces de educație non-formală prin practicarea scrimei. Ei își
+            descoperă propriile atuuri în acest sport nobil și se antrenează
+            pentru a se autodepăși în fiecare zi.
           </div>
           <div className="mt-6">
             Ce am reușit împreună cu comunitatea din Chitila:
