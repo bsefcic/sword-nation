@@ -21,6 +21,7 @@ module.exports = {
       // => @media (max-width: 639px) { ... }
       custombp: { raw: '(max-height: 771px)' },
     },
+
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
@@ -40,7 +41,7 @@ module.exports = {
       },
       colors: {
         primary: {
-          100: '#E6FFFA',
+          100: '#d4ac44',
           200: '#c6f6d5',
           300: '#FD1D1D',
           400: '#4FD1C5',

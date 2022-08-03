@@ -16,7 +16,7 @@ const Mission = () => (
           </>
         }
         description2="Copiii care practică sport prin intermediul proiectelor noastre iau parte la un proces de educație alternativă menit să îi transforme în viitori adulți mai implicați, mai încrezători și mai echilibrați."
-        description3="Simțim zi de zi puterea sportului de a educa și de a modela copiii. Așa că misiunea noastră este de a oferi fiecărui copil care provine dintr-un mediu defavorizat oportunitatea practicării unei activități prin care să își atingă adevăratul potențial și să își exprime propria pasiune. Copiii aflați în situații dificile au cea mai mare nevoie de experiența autodepășirii și de încredere în sine. Societatea pe care muncim este una mai echilibrată, mai sănătoasă și mai productivă!"
+        description3="Simțim zi de zi puterea sportului de a educa și de a modela copiii. Așa că misiunea noastră este de a oferi fiecărui copil care provine dintr-un mediu defavorizat oportunitatea practicării unei activități prin care să își atingă adevăratul potențial și să își exprime propria pasiune. Copiii aflați în situații dificile au cea mai mare nevoie de experiența autodepășirii și de încredere în sine. Societatea pentru care muncim este una mai echilibrată, mai sănătoasă și mai productivă!"
         description4="Prin prietenie și respect reciproc putem excela împreună!"
       />
     </Section>

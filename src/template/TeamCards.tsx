@@ -6,12 +6,7 @@ import { TeamCard } from '../teamcard/TeamCard';
 const TeamCards = () => {
   return (
     <div className="pb-8 bg-primary-500">
-      <Section
-        id="team"
-        title="Cunoaște echipa"
-        description="Echipa este formată din oameni pasionați de sport și toate aspectele acestuia. Împreună lucrăm pentru a oferi fiecărui copil șansa practicării unei activități prin care să se dezvolte armonios."
-        yPadding="pt-20"
-      >
+      <Section id="team" title="Cunoaște echipa" yPadding="pt-20">
         <div className="lg:grid lg:grid-cols-2 lg:items-start lg:grid-flow-row">
           <TeamCard
             name="Mihai Cucu-Dumitrescu"
@@ -45,6 +40,7 @@ const TeamCards = () => {
                   una din grupele de copii a Asociației, scrie poezie și petrece
                   timp cu familia și prietenii cei mai apropiați.
                 </p>
+                <p className="text-right pt-2">mihai@swordnation.ro</p>
               </>
             }
             image={{
@@ -83,6 +79,7 @@ const TeamCards = () => {
                   lucrează și să se dezvolte împreună cu grupurile Sword Nation,
                   atât pe plan personal cât și profesional sau sportiv.
                 </p>
+                <p className="text-right pt-2">catalin@swordnation.ro</p>
               </>
             }
             image={{
@@ -91,7 +88,7 @@ const TeamCards = () => {
             }}
           />
           <TeamCard
-            name="Andrei Matei"
+            name="Andrei “Relu” Matei"
             position="Ofițer de Proiecte &amp; Strategy Champion"
             description={
               <>
@@ -130,6 +127,7 @@ const TeamCards = () => {
                   România, către o deschidere mai mare față de rolul social pe
                   care practicarea sportului în regim susținut îl are.
                 </p>
+                <p className="text-right pt-2">am@swordnation.ro</p>
               </>
             }
             image={{
@@ -161,6 +159,7 @@ const TeamCards = () => {
                   din medii defavorizate, ceea ce i-a determinat interesul
                   pentru domeniul de activitate al ONG-urilor.
                 </p>
+                <p className="text-right pt-2">ruxandra@swordnation.ro</p>
               </>
             }
             image={{
@@ -212,6 +211,7 @@ const TeamCards = () => {
                   sportului și de a reprezenta o ancoră pentru cei din breaslă
                   și nu numai.
                 </p>
+                <p className="text-right pt-2">vlad@swordnation.ro</p>
               </>
             }
             image={{
@@ -244,6 +244,7 @@ const TeamCards = () => {
                   proiecte ale asociației, dedicate popularizării scrimei în
                   contexte sociale insuficient deservite.
                 </p>
+                <p className="text-right pt-2">paul@swordnation.ro</p>
               </>
             }
             image={{

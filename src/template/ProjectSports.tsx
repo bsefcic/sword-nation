@@ -62,10 +62,10 @@ const ProjectSports = () => (
             reprezintă un material fizic și digital de promovare a metodei
             Sports Nation de incluziune socială prin sport, aplicabil în orice
             context social și pentru orice sport și stă la baza dezvoltării
-            ulterioare a metodei și implementării ei la scară largă. Lansarea
-            Broșurii Sports Nation este programată pentru luna octombrie 2022,
-            în prezența invitaților, partenerilor și colaboratorilor care au
-            făcut posibil acest proiect.
+            ulterioare a metodei și implementării ei la scară largă. Lansarea{' '}
+            <span className="text-primary-100">Broșurii Sports Nation</span>{' '}
+            este programată pentru luna octombrie 2022, în prezența invitaților,
+            partenerilor și colaboratorilor care au făcut posibil acest proiect.
           </div>
           <div className="mb-6">
             Proiectul este derulat de Asociația Sword Nation în parteneriat cu

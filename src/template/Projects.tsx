@@ -2,16 +2,12 @@ import { Section } from '../layout/Section';
 import { Project } from '../project/Project';
 
 const Projects = () => (
-  <Section
-    id="projects"
-    title="Ce facem?"
-    description="Proiectele dezvoltate de Asociația Sword Nation au scopul de a oferi copiilor din medii defavorizate oportunitatea de a practică sportul în cluburile afiliate."
-  >
+  <Section id="projects" title="Ce facem?">
     <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6">
       <Project
         projectPath="/projects/sword-nation-chitila"
         projectTitle="Proiectul Sword Nation - Chitila"
-        projectImage="/assets/images/chitila1.png"
+        projectImage="/assets/images/chitilahome.png"
         projectDescrption="Din 2020, un grup de 30 de copii cu vârste între 7 și 12 an, din
         comunitatea din Chitila, sunt implicați într-un proces de educație
         non-formală prin practicarea scrimei..."

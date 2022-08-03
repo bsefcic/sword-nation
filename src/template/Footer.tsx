@@ -8,7 +8,7 @@ import { AppConfig } from '../utils/AppConfig';
 
 const Footer = () => (
   <Background color="bg-white">
-    <Section id="footer">
+    <Section id="contact">
       <FooterTwoRowsCopyright
         siteName={AppConfig.site_name}
         verticalLinks={

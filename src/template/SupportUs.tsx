@@ -11,19 +11,19 @@ const SupportUs = () => {
     <Background color="bg-primary-500">
       <Section
         id="support"
-        title="Susține-ne proiectele"
+        title="Susține-ne"
         subtitle="Fă o faptă bună!"
         description="Investește în educația non-formală a copiilor defavorizați, investește într-o generație viitoare mai echilibrată și mai performantă! Proiectele noastre se adresează acelor copii cu potențial și talent, care însă nu au ocazia de a și le exprima. Donația ta ne ajută să le oferim aripi și încredere în sine! Donează printr-un transfer către contul nostru:
         "
       >
         <div className="text-center text-gray-900 lg:text-xl">
-          <p>
-            Cont in RON - IBAN: {` `}
-            <span className="font-bold">RO84RNCB0082166606290001</span>
-          </p>
-          <p>Asociația Sword Nation</p>
-          <p>Registrul Asociațiilor și Fundațiilor nr. 88/27.09.2019</p>
-          <p>CIF: 41712251</p>
+          <div className="font-bold">
+            <p>Cont in RON - IBAN: RO84RNCB0082166606290001</p>
+            <p>Asociația Sword Nation</p>
+            <p>Registrul Asociațiilor și Fundațiilor nr. 88/27.09.2019</p>
+            <p>CIF: 41712251</p>
+          </div>
+
           <div className="mt-14 pb-6">
             <div className="bg-white shadow-2xl rounded-3xl text-gray-900 px-4 py-12">
               <p className="text-xl mb-6 font-bold">
