@@ -45,7 +45,7 @@ const SupportUs = () => {
                 proiectele noastre. Mulțumim că te implici!
               </p>
               <button
-                className="bg-primary-500 w-32 font-bold text-white mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600"
+                className="bg-primary-500 w-40 font-bold text-white mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600"
                 onClick={() => download(fileUrl, filename)}
               >
                 Descarcă
@@ -74,7 +74,7 @@ const SupportUs = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-primary-500 w-32 text-white font-bold mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600">
+                <button className="bg-primary-500 w-40 text-white font-bold mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600">
                   Completează
                 </button>
               </a>
