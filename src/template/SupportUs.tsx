@@ -32,10 +32,10 @@ const SupportUs = () => {
               <p className="mb-8 indent-8">
                 Ai o companie și vrei să te implici social, fără să te coste
                 nimic? Poți direcționa 20% din impozit ca sponsorizare pentru
-                dezvoltarea copiilor aflați în grija Sword Nation. E gratis!
-                Descarcă modelul de contract de alături și trimite-l pe adresa
-                am@swordnation.ro, iar un membru al echipei te va contacta cât
-                de repede.
+                dezvoltarea copiilor aflați în grija Asociației Sword Nation. E
+                gratis! Descarcă modelul de contract de alături și trimite-l pe
+                adresa am@swordnation.ro, iar un membru al echipei te va
+                contacta cât de repede.
               </p>
               <p className="indent-8">
                 Sponsorizarea ta sau a companiei tale contribuie la acoperirea
