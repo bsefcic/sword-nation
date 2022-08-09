@@ -11,19 +11,19 @@ const SupportUs = () => {
     <Background color="bg-primary-500">
       <Section
         id="support"
-        title="Susține-ne proiectele"
+        title="Susține-ne"
         subtitle="Fă o faptă bună!"
         description="Investește în educația non-formală a copiilor defavorizați, investește într-o generație viitoare mai echilibrată și mai performantă! Proiectele noastre se adresează acelor copii cu potențial și talent, care însă nu au ocazia de a și le exprima. Donația ta ne ajută să le oferim aripi și încredere în sine! Donează printr-un transfer către contul nostru:
         "
       >
-        <div className="text-center text-gray-900">
-          <p>
-            Cont in RON - IBAN: {` `}
-            <span className="font-bold">RO84RNCB0082166606290001</span>
-          </p>
-          <p>Asociația Sword Nation</p>
-          <p>Registrul Asociațiilor și Fundațiilor nr. 88/27.09.2019</p>
-          <p>CIF: 41712251</p>
+        <div className="text-center text-gray-900 lg:text-xl">
+          <div className="font-bold">
+            <p>Cont in RON - IBAN: RO84RNCB0082166606290001</p>
+            <p>Asociația Sword Nation</p>
+            <p>Registrul Asociațiilor și Fundațiilor nr. 88/27.09.2019</p>
+            <p>CIF: 41712251</p>
+          </div>
+
           <div className="mt-14 pb-6">
             <div className="bg-white shadow-2xl rounded-3xl text-gray-900 px-4 py-12">
               <p className="text-xl mb-6 font-bold">
@@ -32,10 +32,10 @@ const SupportUs = () => {
               <p className="mb-8 indent-8">
                 Ai o companie și vrei să te implici social, fără să te coste
                 nimic? Poți direcționa 20% din impozit ca sponsorizare pentru
-                dezvoltarea copiilor aflați în grija Sword Nation. E gratis!
-                Descarcă modelul de contract de alături și trimite-l pe adresa
-                am@swordnation.ro, iar un membru al echipei te va contacta cât
-                de repede.
+                dezvoltarea copiilor aflați în grija Asociației Sword Nation. E
+                gratis! Descarcă modelul de contract de alături și trimite-l pe
+                adresa am@swordnation.ro, iar un membru al echipei te va
+                contacta cât de repede.
               </p>
               <p className="indent-8">
                 Sponsorizarea ta sau a companiei tale contribuie la acoperirea
@@ -45,7 +45,7 @@ const SupportUs = () => {
                 proiectele noastre. Mulțumim că te implici!
               </p>
               <button
-                className="bg-primary-500 w-32 font-bold text-white mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600"
+                className="bg-primary-500 w-40 font-bold text-white mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600"
                 onClick={() => download(fileUrl, filename)}
               >
                 Descarcă
@@ -74,7 +74,7 @@ const SupportUs = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-primary-500 w-32 text-white font-bold mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600">
+                <button className="bg-primary-500 w-40 text-white font-bold mt-6 py-3 px-3 hover:scale-90 rounded-xl hover:bg-primary-600">
                   Completează
                 </button>
               </a>
