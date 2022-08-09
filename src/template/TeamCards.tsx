@@ -6,13 +6,7 @@ import { TeamCard } from '../teamcard/TeamCard';
 const TeamCards = () => {
   return (
     <div className="pb-8 bg-primary-500">
-      <Section
-        id="team"
-        title="Cunoaște echipa"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-        tristique nibh ac diam pretium tincidunt. Vestibulum sed est velit."
-        yPadding="pt-20"
-      >
+      <Section id="team" title="Cunoaște echipa" yPadding="pt-20">
         <div className="lg:grid lg:grid-cols-2 lg:items-start lg:grid-flow-row">
           <TeamCard
             name="Mihai Cucu-Dumitrescu"
@@ -20,9 +14,9 @@ const TeamCards = () => {
             description={
               <>
                 <span className="text-primary-500 font-bold">Mihai</span> are
-                experientă de lucru în project management, programe de
+                experiență de lucru în project management, programe de
                 leadership, due diligence, management sportiv, antrenorat și
-                arbitraj - în mediul privat, public și ong. A urmat studii de
+                arbitraj - în mediul privat, public și ONG. A urmat studii de
                 licență în Științe Politice la Università degli Studi di Padova
                 și de master în Violență Politică la University of Birmingham.
                 <p>
@@ -30,22 +24,23 @@ const TeamCards = () => {
                   <span className="text-primary-500 font-bold">Mihai</span> a
                   practicat timp de scrima 14 ani în Romania, Italia și Marea
                   Britanie unde a participat la multiple campionate naționale,
-                  etape de cupă mondială și campionate europene, iar din 2021 el
+                  etape de cupă mondială și campionate europene, iar din 2021
                   este arbitru al Federației Internaționale de Scrimă și
                   oficiază la competiții în toată lumea. Din 2018, de când a
                   fondat{' '}
                   <span className="text-primary-500 font-bold">
                     Sword Nation
                   </span>
-                  , e pasionat de găsirea a noi moduri de folosire a sportului
-                  ca instrument de educație alternativă și rolul sportului în
-                  progresul social.
+                  , e pasionat de rolul sportului în progresul social și găsirea
+                  a noi moduri de folosire a sportului ca instrument de educație
+                  alternativă.
                 </p>
                 <p>
                   În timpul liber aleargă, cântă la chitarele sale, antrenează
-                  una din grupele de copii a Asociației, scrie poezie și petrece
-                  timp cu familia și prietenii cei mai apropiați.
+                  una dintre grupele de copii a Asociației, scrie poezie și
+                  petrece timp cu familia și prietenii cei mai apropiați.
                 </p>
+                <p className="text-right pt-2">mihai@swordnation.ro</p>
               </>
             }
             image={{
@@ -71,12 +66,12 @@ const TeamCards = () => {
                   și component al loturilor naționale de cadeți, juniori și
                   tineret. A început scrima alături de antrenorul Adrian
                   Cârlescu-Badea și a participat de-a lungul carierei sportive,
-                  de 15 ani, la multiple Campionate Europene (cadeti-juniori),
+                  de 15 ani, la multiple Campionate Europene (cadeți-juniori),
                   etape de Cupă Mondială și concursuri naționale, câștigând
                   peste 20 de medalii la competiții naționale și internaționale.
                 </p>
                 <p>
-                  Pornește de la credința că fiecare copil are ceva unic iar
+                  Pornește de la credința că fiecare copil are ceva unic, iar
                   datoria sa este de a-și da seama de talentul fiecăruia și de
                   a-l dezvolta prin metode și tehnici personalizate.{' '}
                   <span className="text-primary-500 font-bold">Cătă</span> e
@@ -84,6 +79,7 @@ const TeamCards = () => {
                   lucrează și să se dezvolte împreună cu grupurile Sword Nation,
                   atât pe plan personal cât și profesional sau sportiv.
                 </p>
+                <p className="text-right pt-2">catalin@swordnation.ro</p>
               </>
             }
             image={{
@@ -92,7 +88,7 @@ const TeamCards = () => {
             }}
           />
           <TeamCard
-            name="Andrei Matei"
+            name="Andrei “Relu” Matei"
             position="Ofițer de Proiecte &amp; Strategy Champion"
             description={
               <>
@@ -103,7 +99,7 @@ const TeamCards = () => {
                   <span className="text-primary-500 font-bold">
                     Sword Nation
                   </span>{' '}
-                  și de identificarea a viitori potențiali parteneri. El este
+                  și de identificarea viitorilor potențiali parteneri. El este
                   absolvent al Academiei de Studii Economice București și își
                   dedică parcursul profesional formării tinerilor din industria
                   de e-sports, din cadrul unei echipe de gaming profesionist din
@@ -117,20 +113,22 @@ const TeamCards = () => {
                 <p>
                   Cu un background în rugby-ul de performanță,{' '}
                   <span className="text-primary-500 font-bold">Andrei</span>{' '}
-                  și-a început parcursul de leader de la o vârstă fragedă, fiind
-                  vice căpitanul echipei de rugby în cadrul căreia a crescut și
-                  ducând echipa sa în fazele finale ale campionatului național,
-                  fiind de asemenea membru al echipei naționale a României de
-                  juniori.{' '}
+                  și-a început parcursul de leader de la o vârstă fragedă. A
+                  fost vice-căpitanul echipei de rugby în cadrul căreia a
+                  crescut și a dus echipa sa în fazele finale ale campionatului
+                  național. A fost, de asemenea, membru al echipei naționale a
+                  României de juniori.{' '}
                   <span className="text-primary-500 font-bold">Andrei</span> își
                   propune prin munca sa la{' '}
                   <span className="text-primary-500 font-bold">
                     Sword Nation
                   </span>{' '}
                   să adapteze și să modernizeze cultura sportului de masă în
-                  România, către o deschidere mai mare față de rolul social pe
-                  care practicarea sportului în regim susținut îl are.
+                  România. Consideră că practicarea sportului în regim susținut
+                  contribuie la dezvoltarea comunităților și are o importanță
+                  socială în creștere.
                 </p>
+                <p className="text-right pt-2">am@swordnation.ro</p>
               </>
             }
             image={{
@@ -162,6 +160,7 @@ const TeamCards = () => {
                   din medii defavorizate, ceea ce i-a determinat interesul
                   pentru domeniul de activitate al ONG-urilor.
                 </p>
+                <p className="text-right pt-2">ruxandra@swordnation.ro</p>
               </>
             }
             image={{
@@ -177,14 +176,9 @@ const TeamCards = () => {
                 <p>
                   <span className="text-primary-500 font-bold">Vlad</span> este
                   un fizioterapeut tenace, fiind extrem de interesat de
-                  problemele de „hardware” și „software” ale oamenilor, antrenor
-                  entuziast de baschet ce dorește să trezească, în cei pe care
-                  îi antrenează, pasiunea pentru sport și ofițer de proiecte în
-                  cadrul{' '}
-                  <span className="text-primary-500 font-bold">
-                    Sword Nation
-                  </span>
-                  .
+                  problemele de „hardware” și „software” ale oamenilor. Antrenor
+                  entuziast de baschet, își dorește să trezească în cei pe care
+                  îi antrenează pasiunea pentru sport.
                 </p>
                 <p>
                   Pentru{' '}
@@ -198,9 +192,9 @@ const TeamCards = () => {
                   puternic factor decizional pentru modul în care{' '}
                   <span className="text-primary-500 font-bold">Vlad</span>{' '}
                   servește societatea. Acesta a ales să se preocupe de durerile
-                  și neajunsurile fizice ale oamenilor ale oamenilor de rând,
-                  iar, pe de altă parte, caută să integreze prevenția și să
-                  maximizeze performanțele sportivilor profesioniști.
+                  și neajunsurile fizice ale oamenilor ale oamenilor de rând. Pe
+                  de altă parte, caută să integreze prevenția și să maximizeze
+                  performanțele sportivilor profesioniști.
                 </p>
                 <p>
                   Gândul că ar putea să ofere și să ajute l-a determinat să se
@@ -213,6 +207,7 @@ const TeamCards = () => {
                   sportului și de a reprezenta o ancoră pentru cei din breaslă
                   și nu numai.
                 </p>
+                <p className="text-right pt-2">vlad@swordnation.ro</p>
               </>
             }
             image={{
@@ -245,6 +240,7 @@ const TeamCards = () => {
                   proiecte ale asociației, dedicate popularizării scrimei în
                   contexte sociale insuficient deservite.
                 </p>
+                <p className="text-right pt-2">paul@swordnation.ro</p>
               </>
             }
             image={{

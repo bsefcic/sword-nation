@@ -14,16 +14,16 @@ const ProjectSports = () => (
           <div className="md:grid md:grid-cols-2 md:gap-12 mb-8">
             <div className="mb-6 mt-12">
               Proiectul Sports Nation - Pilot este o inițiativă coordonată de
-              Asociația Sword Nation, de dezvoltare a unei metode de lucru cu
-              copii din medii defavorizate, în sport. Folosim sportul în cadru
-              organizat ca instrument de incluziune socială, îi analizăm
-              beneficiile și limitările, iar apoi punem bazele aplicării acestei
-              metode de lucru în continuare. În cadrul parteneriatului cu Furim
-              Institute (Oslo, Norvegia) și în colaborare cu Federația Română de
-              Baschet, Federația Română de Rugby, Federația Română de Scrimă și
-              instituții de învățământ din toată țara selectăm 50 de copii din
-              medii defavorizate și le monitorizăm evoluția de-a lungul a 12
-              luni de practicare a sportului în regim susținut.
+              Asociația Sword Nation, ce are în vedere dezvoltarea unei metode
+              de lucru cu copii din medii defavorizate, prin sport. Folosim
+              sportul în cadru organizat ca instrument de incluziune socială, îi
+              analizăm beneficiile și limitările, iar apoi punem bazele
+              aplicării acestei metode de lucru. În cadrul parteneriatului cu
+              Furim Institute (Oslo, Norvegia) și în colaborare cu Federația
+              Română de Baschet, Federația Română de Rugby, Federația Română de
+              Scrimă și instituții de învățământ din toată țara, selectăm 50 de
+              copii din medii defavorizate și le monitorizăm evoluția de-a
+              lungul a 12 luni de practicare a sportului în regim susținut.
             </div>
             <img
               src="/assets/images/sports1.png"
@@ -62,13 +62,13 @@ const ProjectSports = () => (
             reprezintă un material fizic și digital de promovare a metodei
             Sports Nation de incluziune socială prin sport, aplicabil în orice
             context social și pentru orice sport și stă la baza dezvoltării
-            ulterioare a metodei și implementării ei la scară largă. Lansarea
-            Broșurii Sports Nation este programată pentru luna octombrie 2022,
-            în prezența invitaților, partenerilor și colaboratorilor care au
-            făcut posibil acest proiect.
+            ulterioare a metodei și implementării ei la scară largă. Lansarea{' '}
+            <span className="text-primary-100">Broșurii Sports Nation</span>{' '}
+            este programată pentru luna octombrie 2022, în prezența invitaților,
+            partenerilor și colaboratorilor care au făcut posibil acest proiect.
           </div>
           <div className="mb-6">
-            Proiectul este derulat de Asociația Sword Nation în parteneriat cu
+            Proiectul este derulat de Asociația Sword Nation, în parteneriat cu
             FURIM Institutt și beneficiază de o finanțare în valoare de 47.648
             euro, prin programul Active Citizens Fund România, finanțat de
             Islanda, Liechtenstein și Norvegia prin Granturile SEE 2014-2021.

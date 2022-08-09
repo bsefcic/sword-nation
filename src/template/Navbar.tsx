@@ -49,6 +49,11 @@ const Navbar = (props: INavbarProps) => {
               <a>Susținere</a>
             </Link>
           </li>
+          <li>
+            <Link href={`${props.prefix}#contact`}>
+              <a>Contact</a>
+            </Link>
+          </li>
         </NavbarTwoColumns>
       </Section>
       <style jsx>

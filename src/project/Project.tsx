@@ -24,7 +24,7 @@ const Project = (props: IProjectsProps) => (
           {props.projectDescrption}
         </p>
         <a
-          className="text-white bg-primary-500 hover:bg-primary-600 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
+          className="text-white bg-primary-500 hover:bg-primary-600 hover:scale-90 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
           href={props.projectPath}
         >
           Citește mai multe
