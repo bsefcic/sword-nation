@@ -1,11 +1,15 @@
 import { Section } from '../layout/Section';
 import { Project } from '../project/Project';
 
-const Projects = () => (
+type IProjectType = {
+  locale: string;
+};
+
+const Projects = (props: IProjectType) => (
   <Section id="projects" title="Ce facem?">
     <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6">
       <Project
-        projectPath="/projects/sword-nation-chitila"
+        projectPath={`/${props.locale}/projects/sword-nation-chitila`}
         projectTitle="Proiectul Sword Nation - Chitila"
         projectImage="/assets/images/chitilahome.png"
         projectDescrption="Din 2020, un grup de 30 de copii cu vârste între 7 și 12 an, din
@@ -15,7 +19,7 @@ const Projects = () => (
         <></>
       </Project>
       <Project
-        projectPath="/projects/sports-nation-pilot"
+        projectPath={`/${props.locale}/projects/sports-nation-pilot`}
         projectTitle="Proiectul Sports Nation - Pilot"
         projectImage="/assets/images/sports1.png"
         projectDescrption="Proiectul Sports Nation - Pilot este o inițiativă coordonată de

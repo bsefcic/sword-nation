@@ -8,14 +8,18 @@ import { Projects } from './Projects';
 import { SupportUs } from './SupportUs';
 import { TeamCards } from './TeamCards';
 
-const Base = () => (
+type IBaseType = {
+  locale: string;
+};
+
+const Base = (props: IBaseType) => (
   <div className="antialiased text-gray-700">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Navbar prefix="" />
     <Home />
     <Mission />
     <TeamCards />
-    <Projects />
+    <Projects locale={props.locale} />
     <SupportUs />
     <Footer />
   </div>
