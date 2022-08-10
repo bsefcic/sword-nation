@@ -28,7 +28,17 @@ const Navbar = (props: INavbarProps) => {
       }`}
     >
       <Section id="nav" yPadding="py-6">
-        <NavbarTwoColumns prefix={props.prefix} logo={<Logo xl />}>
+        <NavbarTwoColumns
+          prefix={props.prefix}
+          logo={<Logo xl />}
+          supportBtn={
+            <Link href={`${props.prefix}#support`}>
+              <a className="z-10 top-12 right-96 absolute text-gray-900 text-xl bg-primary-500 p-1 rounded-xl font-bold hover:bg-primary-600">
+                Susține-ne
+              </a>
+            </Link>
+          }
+        >
           <li>
             <Link href={`${props.prefix}#misiune`}>
               <a>Misiune</a>
@@ -42,11 +52,6 @@ const Navbar = (props: INavbarProps) => {
           <li>
             <Link href={`${props.prefix}#projects`}>
               <a>Proiecte</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={`${props.prefix}#support`}>
-              <a>Susține-ne</a>
             </Link>
           </li>
           <li>

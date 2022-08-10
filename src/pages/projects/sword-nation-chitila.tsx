@@ -23,8 +23,8 @@ const Index = () => (
                 Din 2020, un grup de 30 de copii cu vârste între 7 și 12 ani,
                 din comunitatea orașului Chitila, jud. Ilfov, sunt implicați
                 într-un proces de educație non-formală prin practicarea scrimei.
-                Ei își descoperă propriile atuuri în acest sport nobil și se
-                antrenează pentru a se autodepăși în fiecare zi.
+                Ei își descoperă propriile atuuri prin intermediul acestui sport
+                nobil și se antrenează pentru a se autodepăși în fiecare zi.
               </div>
               <div className="mt-6">
                 Ce am reușit împreună cu comunitatea din Chitila:

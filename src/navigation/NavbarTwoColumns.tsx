@@ -7,6 +7,7 @@ type INavbarProps = {
   logo: ReactNode;
   children: ReactNode;
   prefix: string;
+  supportBtn: ReactNode;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => {
@@ -29,6 +30,8 @@ const NavbarTwoColumns = (props: INavbarProps) => {
 
         <nav className="ml-6 hidden md:block">
           <ul className="navbar rounded-t">{props.children}</ul>
+
+          {props.supportBtn}
         </nav>
       </div>
 
@@ -54,7 +57,10 @@ const NavbarTwoColumns = (props: INavbarProps) => {
       </div>
 
       <nav className={`mt-2 md:hidden ${navClass}`}>
-        <ul className="navbar rounded-t">{props.children}</ul>
+        <ul className="navbar rounded-t">
+          {props.children}
+          <li>{props.supportBtn}</li>
+        </ul>
       </nav>
 
       <style jsx>
