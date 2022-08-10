@@ -46,7 +46,7 @@ const Navbar = (props: INavbarProps) => {
           </li>
           <li>
             <Link href={`${props.prefix}#support`}>
-              <a>Susținere</a>
+              <a>Susține-ne</a>
             </Link>
           </li>
           <li>

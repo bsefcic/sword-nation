@@ -17,32 +17,64 @@ const Index = () => (
         titleColor={true}
       >
         <div className="mt-12 text-lg lg:text-xl indent-10 text-gray-900">
-          <div>
-            Din 2020, un grup de 30 de copii cu vârste între 7 și 12 ani, din
-            comunitatea orașului Chitila, jud. Ilfov, sunt implicați într-un
-            proces de educație non-formală prin practicarea scrimei. Ei își
-            descoperă propriile atuuri în acest sport nobil și se antrenează
-            pentru a se autodepăși în fiecare zi.
+          <div className="md:grid md:grid-cols-2 md:gap-12 mb-8">
+            <div>
+              <div>
+                Din 2020, un grup de 30 de copii cu vârste între 7 și 12 ani,
+                din comunitatea orașului Chitila, jud. Ilfov, sunt implicați
+                într-un proces de educație non-formală prin practicarea scrimei.
+                Ei își descoperă propriile atuuri în acest sport nobil și se
+                antrenează pentru a se autodepăși în fiecare zi.
+              </div>
+              <div className="mt-6">
+                Ce am reușit împreună cu comunitatea din Chitila:
+              </div>
+              <dl className="indent-16 mb-6">
+                <li>
+                  <span className="text-primary-500 font-bold">
+                    1 sport nou
+                  </span>{' '}
+                  în oraș
+                </li>
+                <li>
+                  <span className="text-primary-500 font-bold">
+                    30 de copii
+                  </span>{' '}
+                  se autodepășesc în fiecare zi, la sport și la școală
+                </li>
+                <li>
+                  participare la{' '}
+                  <span className="text-primary-500 font-bold">2 ediții</span>{' '}
+                  ale Campionatului Național de Scrimă
+                </li>
+                <li>
+                  <span className="text-primary-500 font-bold">3 medalii</span>{' '}
+                  la Campionatului Național de Scrimă
+                </li>
+                <li>
+                  <span className="text-primary-500 font-bold">prezență</span>{' '}
+                  de peste{' '}
+                  <span className="text-primary-500 font-bold">90%</span> la
+                  antrenamente
+                </li>
+                <li>să organizăm o competiție de scrimă</li>
+                <li>
+                  să participăm la{' '}
+                  <span className="text-primary-500 font-bold">
+                    2 cantonamente
+                  </span>
+                  , competiții amicale, piese de teatru, workshop-uri de
+                  dezvoltare personală sau masterclass-uri
+                </li>
+              </dl>
+            </div>
+            <img
+              src="/assets/images/chitilahome.png"
+              alt="image chitila"
+              className="m-auto w-full sm:w-4/5 md:w-full"
+            ></img>
           </div>
-          <div className="mt-6">
-            Ce am reușit împreună cu comunitatea din Chitila:
-          </div>
-          <dl className="indent-16 mb-6">
-            <li>1 sport nou în oraș</li>
-            <li>
-              30 de copii se autodepășesc în fiecare zi, la sport și la școală
-            </li>
-            <li>
-              participare la 2 ediții ale Campionatului Național de Scrimă
-            </li>
-            <li>3 medalii la Campionatului Național de Scrimă</li>
-            <li>prezență de peste 90% la antrenamente</li>
-            <li>să organizăm o competiție de scrimă</li>
-            <li>
-              să participăm la 2 cantonamente, competiții amicale, piese de
-              teatru, workshop-uri de dezvoltare personală sau masterclass-uri
-            </li>
-          </dl>
+
           <div className="mb-6">
             Proiectul a fost finanțat în primă fază prin programul În Stare de
             Bine susținut de Kaufland România și implementat de Fundația pentru
@@ -57,7 +89,7 @@ const Index = () => (
             Asociația Sword Nation are ca obiectiv facilitarea incluziunii
             sociale a tinerilor provenienți din medii defavorizate, iar
             activitatea și viziunea noastră pornește de la promovarea sportului
-            organizat ca vector al incluziunii sociale și al egalității de
+            organizat, ca vector al incluziunii sociale și al egalității de
             șanse. Prin facilitarea accesului la scrimă pentru cât mai multe
             comunități cu copii aflați în situație de risc de excluziune socială
             sau abandon școlar, ne propunem să apropiem de valorile acestui
