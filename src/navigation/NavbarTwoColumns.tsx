@@ -30,10 +30,9 @@ const NavbarTwoColumns = (props: INavbarProps) => {
 
         <nav className="ml-6 hidden md:block">
           <ul className="navbar rounded-t">{props.children}</ul>
-
-          {props.supportBtn}
         </nav>
       </div>
+      <div className="hidden md:block">{props.supportBtn}</div>
 
       <div className="md:hidden">
         <button

@@ -33,28 +33,28 @@ const Navbar = (props: INavbarProps) => {
           logo={<Logo xl />}
           supportBtn={
             <Link href={`${props.prefix}#support`}>
-              <a className="z-10 top-12 right-96 absolute text-gray-900 text-xl bg-primary-500 p-1 rounded-xl font-bold hover:bg-primary-600">
+              <a className="float-right text-white text-xl bg-primary-500 p-2 px-4 rounded-xl font-bold hover:bg-primary-600">
                 Susține-ne
               </a>
             </Link>
           }
         >
-          <li>
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#misiune`}>
               <a>Misiune</a>
             </Link>
           </li>
-          <li>
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#team`}>
               <a>Echipă</a>
             </Link>
           </li>
-          <li>
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#projects`}>
               <a>Proiecte</a>
             </Link>
           </li>
-          <li>
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#contact`}>
               <a>Contact</a>
             </Link>
