@@ -25,6 +25,7 @@ export async function getStaticProps({ locale }: { locale: string }) {
 
 const Index = (props: ISportsProps) => {
   const { t } = useTranslation('projectSports');
+  const p6 = t('paragraph6');
   return (
     <div className="antialiased text-gray-700">
       <Meta title="Sports Nation - Pilot" description={AppConfig.description} />
@@ -79,7 +80,10 @@ const Index = (props: ISportsProps) => {
             <div className="mb-6">{t('paragraph3')}</div>
             <div className="mb-6">{t('paragraph4')}</div>
             <div className="mb-6">{t('paragraph5')}</div>
-            <div className="mb-6">{t('paragraph6')}</div>
+            <div
+              className="mb-6"
+              dangerouslySetInnerHTML={{ __html: p6 }}
+            ></div>
             <div className="mb-6 mt-12 text-lg text-center">
               Active Citizens Fund - Romania
             </div>

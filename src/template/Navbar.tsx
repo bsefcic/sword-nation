@@ -28,28 +28,33 @@ const Navbar = (props: INavbarProps) => {
       }`}
     >
       <Section id="nav" yPadding="py-6">
-        <NavbarTwoColumns prefix={props.prefix} logo={<Logo xl />}>
-          <li>
+        <NavbarTwoColumns
+          prefix={props.prefix}
+          logo={<Logo xl />}
+          supportBtn={
+            <Link href={`${props.prefix}#support`}>
+              <a className="float-right text-white text-xl bg-primary-500 p-2 px-4 rounded-xl font-bold hover:bg-primary-600">
+                Susține-ne
+              </a>
+            </Link>
+          }
+        >
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#misiune`}>
               <a>Misiune</a>
             </Link>
           </li>
-          <li>
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#team`}>
               <a>Echipă</a>
             </Link>
           </li>
-          <li>
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#projects`}>
               <a>Proiecte</a>
             </Link>
           </li>
-          <li>
-            <Link href={`${props.prefix}#support`}>
-              <a>Susținere</a>
-            </Link>
-          </li>
-          <li>
+          <li className="ml-4 md:ml-0">
             <Link href={`${props.prefix}#contact`}>
               <a>Contact</a>
             </Link>
