@@ -2,6 +2,7 @@ import { Background } from '../../background/Background';
 import CarouselChitila from '../../carousels/CarouselChitila';
 import { Meta } from '../../layout/Meta';
 import { Section } from '../../layout/Section';
+import { FacebookMsg } from '../../template/FacebookMsg';
 import { Footer } from '../../template/Footer';
 import { Navbar } from '../../template/Navbar';
 import { AppConfig } from '../../utils/AppConfig';
@@ -10,6 +11,7 @@ const Index = () => (
   <div className="antialiased text-gray-700">
     <Meta title="Sword Nation - Chitila" description={AppConfig.description} />
     <Navbar prefix="../../" />
+    <FacebookMsg />
     <Background color="pt-20 ">
       <Section
         id="chitilaProject"
