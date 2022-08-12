@@ -9,11 +9,7 @@ import { Projects } from './Projects';
 import { SupportUs } from './SupportUs';
 import { TeamCards } from './TeamCards';
 
-type IBaseType = {
-  locale: string;
-};
-
-const Base = (props: IBaseType) => (
+const Base = () => (
   <div className="antialiased text-gray-700">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Navbar prefix="" />
@@ -21,7 +17,7 @@ const Base = (props: IBaseType) => (
     <Home />
     <Mission />
     <TeamCards />
-    <Projects locale={props.locale} />
+    <Projects />
     <SupportUs />
     <Footer />
   </div>
