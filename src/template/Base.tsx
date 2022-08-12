@@ -1,5 +1,6 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
+import { FacebookMsg } from './FacebookMsg';
 import { Footer } from './Footer';
 import { Home } from './Home';
 import { Mission } from './Mission';
@@ -16,6 +17,7 @@ const Base = (props: IBaseType) => (
   <div className="antialiased text-gray-700">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Navbar prefix="" />
+    <FacebookMsg />
     <Home />
     <Mission />
     <TeamCards />
