@@ -149,7 +149,7 @@ const TeamCards = () => {
                   </span>{' '}
                   și ajută la formarea identității vizuale a organizației, prin
                   materiale online și offline. Ea are 23 de ani, este licențiată
-                  în publicitate, uremază în prezent un master de social media
+                  în publicitate, urmează în prezent un master de social media
                   și marketing online, în cadrul Școlii Naționale de Studii
                   Politice și Administrative.
                 </p>
